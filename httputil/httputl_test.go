@@ -3,8 +3,8 @@ package httputil
 import (
 	"encoding/json"
 	"encoding/xml"
-	"github.com/hzxiao/goutil"
-	"github.com/hzxiao/goutil/assert"
+	"github.com/txze/goutil"
+	"github.com/txze/goutil/assert"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"

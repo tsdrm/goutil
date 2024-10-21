@@ -2,12 +2,13 @@ package mgodb
 
 import (
 	"errors"
-	"github.com/hzxiao/goutil/log"
-	"gopkg.in/bson.v2"
-	"gopkg.in/mgo.v2"
 	"net/url"
 	"strings"
 	"time"
+
+	"github.com/txze/goutil/log"
+	"gopkg.in/bson.v2"
+	"gopkg.in/mgo.v2"
 )
 
 type Config struct {

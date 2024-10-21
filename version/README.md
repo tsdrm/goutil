@@ -15,7 +15,7 @@ edit follow go file:
 package main
 
 import (
-	"github.com/hzxiao/goutil/version"
+	"github.com/txze/goutil/version"
 )
 
 var showVersion = true
@@ -34,13 +34,13 @@ func main() {
 provider follow ldflags when build
 
 ```shell
-versionDir=github.com/hzxiao/goutil/version
+versionDir=github.com/txze/goutil/version
 PWD=`pwd`
 if [[ ${PWD} = ${GOPATH}/* ]]; then
     if [[ -d vendor ]]; then
         gp=${GOPATH//\//\\\/}
         proj_path=`echo ${PWD} | sed "s/${gp}\/src\///g"`
-        versionDir=${proj_path}/vendor/github.com/hzxiao/goutil/version
+        versionDir=${proj_path}/vendor/github.com/txze/goutil/version
     fi
 fi
 echo "version dir: ${versionDir}"

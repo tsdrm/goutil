@@ -2,9 +2,10 @@ package token
 
 import (
 	"encoding/json"
-	"github.com/hzxiao/goutil"
-	"github.com/hzxiao/goutil/assert"
 	"testing"
+
+	"github.com/txze/goutil"
+	"github.com/txze/goutil/assert"
 )
 
 type ctx struct {

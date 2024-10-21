@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/hzxiao/goutil"
+	"github.com/txze/goutil"
 	"net/http"
 	"net/url"
 	"strings"

@@ -1,7 +1,7 @@
 package container
 
 import (
-	"github.com/hzxiao/goutil/assert"
+	"github.com/txze/goutil/assert"
 	"testing"
 )
 

@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"github.com/hzxiao/goutil"
+	"github.com/txze/goutil"
 	"io"
 	"io/ioutil"
 	"net/http"
